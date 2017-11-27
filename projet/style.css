@@ -1,0 +1,53 @@
+body{
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+font-size:20px;
+}
+
+h1{
+    margin-top: 0;
+	letter-spacing: 4px;
+	font-size:60px;
+	color:black;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+h2{
+    margin-top: 0;
+	letter-spacing: 4px;
+	font-size:40px;
+	color:red;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+h3{
+	font-size:30px;
+	color:blue;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+p{
+	text-decoration:underline;
+	color:grey;
+	font-size:27px;
+}
+
+#button{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 50%;
+    background: black;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin: 6px 25% 35px;
+    font-weight: 700;
+}
+
+#button:hover{
+	background: grey;
+	color:black;
+} 
