@@ -1,0 +1,342 @@
+/* CSS Document */
+
+/* feuille de style par défaut pour les pages 
+de choix de paiement et de paiement 
+paybox system*/
+
+body {
+    color: #555555;
+    font-family: arial, verdana, sans-serif;
+    padding: 0px;
+    margin: 0;
+}
+
+th {
+    /* headers de tables (dans choix paiement les entêtes de table en bleu )*/
+    color: black;
+    background-color: #2890D6;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+td {
+    /* cellules */
+    font-size: 13px;
+}
+
+h2 {
+    /*le texte 'paiement de' et 'à'*/
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 5px;
+}
+
+a:hover {
+    color: #222;
+}
+
+.inlineImg {
+    vertical-align  : middle;
+}
+
+.pbx_table_logo    td {
+    /*les cellules de la table logo (la table a la classe "pbx_table_logo")*/
+    text-align: center;
+}
+
+.pbx_h1 {
+    /* le premier bloc de texte dans choixpaiement */
+    font-size: 14px;
+    font-family: verdana;
+    font-weight: normal;
+}
+
+.pbx_h2 {
+    /* le second bloc de texte dans choixpaiement (choisissez un moyen...)*/
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pbx_h3 {
+    /* l'entête reprenant  le libellé du type de moyen de paiement*/
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.pbx_h4 {
+    /* nom d'enseigne, en page de paiement*/
+    color: #444;
+    display: block;
+    margin: 8px 0 0 0;
+    padding: 0;
+    border-top: 1px solid #ccc;
+    padding: 5px;
+    display: block;
+    background-color: #f5f5f5;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    font-weight: normal;
+    text-shadow: none;
+}
+
+.pbx_copyright h5 {
+    /*mention paybox en bas de page (choix et paiement)*/
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#tabledevises {
+    color: #AAA;
+}
+
+#idframe_pay, #popup, #ticket {
+    margin          : 20px;
+    border-color    : #CCCCCC;
+    border-style    : solid;
+    border-width    : 1px;
+    border-radius   : 6px 6px 6px 6px;
+}
+
+#idframe_pay, #popup {
+    position    : relative;
+}
+
+#ticketTable {
+    margin  : 0px auto;
+}
+
+#ticket {
+    width   : 600px;
+    margin  : auto;
+}
+
+#ticketContent {
+    width   : 92%;
+    margin  : 15px auto;
+}
+
+#cet2aTicketContent {
+    width   : 25%;
+    margin  : auto auto auto 225px;
+}
+
+#ticketTitle {
+    margin-bottom   : 15px;
+}
+
+#idframe_pay table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#idframe_pay h2{
+color: #0E0D0D;
+font-size: 20px;
+text-align: center;
+font-weight: bold;
+text-shadow: 1px 1px 1px #444444;
+font-weight: bold;
+letter-spacing: 2px;}
+#ticketTitle h2 {
+    color           : #EEEEEE;
+    width           : 100%;
+    padding         : 8px 0px 0px 0px;
+    font-size       : 16px;
+    text-align      : center;
+    box-shadow      : 1px 1px 0px 0px #888888 inset;
+    background      : url("main_header_background.png") repeat scroll 0 0 transparent;
+    font-weight     : bold;
+    text-shadow     : 1px 1px 1px #444444;
+    font-weight     : bold;
+    border-color    : #CCCCCC;
+    border-style    : solid;
+    border-width    : 0px 0px 1px 0px;
+    border-radius   : 5px 5px 0px 0px;
+}
+
+#footer {
+    color           : #544854;
+    font-size       : 11px;
+    text-align      : center;
+    margin-top      : 10px;
+    margin-bottom   : 15px;
+}
+
+#cbvisamasterLogo {
+    width           : 200px;
+    text-align      : left;
+    padding-right   : 50px;
+}
+
+#payboxLogo {
+    width           : 200px;
+    text-align      : right;
+    padding-left    : 50px;
+}
+
+#banner {
+    margin-top      : 27px;
+    text-align      : center;
+    margin-bottom   : 10px;
+}
+
+#postDisclaimer {
+    text-align  : justify;
+}
+
+.textCenter {
+    text-align	: center;
+}
+
+.textLeft {
+    text-align	: left;
+}
+
+.pbx-align-center {
+    text-align: center;
+    padding: 20px 10px;
+    width: 50%;
+}
+
+.pbx-align-right {
+    text-align: right;
+    padding: 2px 10px;
+    width: 50%;
+    white-space: nowrap;
+}
+
+.pbx-align-left {
+    text-align: left;
+    padding: 2px 10px;
+    width: 50%;
+}
+
+.pbx-align-very-left {
+    text-align: left;
+    padding: 2px 10px;
+    width: 100%;
+}
+
+.pbx-no-padding {
+    padding: 0;
+}
+
+.pbx-align-button-right {
+    text-align: right;
+    padding: 2px 4px;
+    width: 50%;
+}
+
+.pbx-align-button-right img {
+    margin-top: 2px;
+}
+
+.pbx-align-button-left {
+    text-align: left;
+    padding: 2px 10px;
+    width: 50%;
+}
+
+#Devises {
+    left: 0px;
+    top: 0px;
+}
+
+#pbx-numero-carte,#pbx-numero-carte-input,#pbx-pm-loader {
+    padding-top: 30px;
+}
+
+#pbx-maxicheque-vide {
+    display: none;
+}
+
+#pbx-maxicheque-frame {
+    padding: 0 220px;
+}
+
+.pbx-cartes-kdo {
+    width: 50%;
+}
+
+/* Pied de page */
+#pbx-footer {
+    font-family: arial, verdana, sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#pbx-footer a {
+    font-style: normal;
+    color: #A3A7AD;
+    text-decoration: none;
+}
+
+#pbx-footer a:hover {
+    color: #74767A;
+}
+
+#pbx-footer ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 10px 0;
+}
+
+#pbx-footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+span[id*='blocCarte'] {
+    display: inline-block;
+}
+
+span[id*='zoneResultConsult'] {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+}
+
+.ui-dialog {
+    font-size: 0.8em;
+}
+
+.popup img {
+    border: 1px solid #CCC;
+    margin: 0px 15px 15px 0px;
+}
+
+.pbx_info {
+    color           : #555555;
+    border-radius   : 10px;
+    font-family     : Tahoma,Geneva,Arial,sans-serif;
+    font-size       : 11px;
+    padding         : 10px 10px 10px 36px;
+    margin          : 10px;
+    background      : #e3f7fc url('info.png') no-repeat 10px 50%;
+    border          : 1px solid #8ed9f6;
+    width           : 50%;
+    text-align      : left
+}
+
+.pbx_info_oblig {
+    color           : #E80000;
+    font-family     : Tahoma,Geneva,Arial,sans-serif;
+    font-size       : 11px;
+    margin-top      : 10px;
+    text-align      : left;
+}

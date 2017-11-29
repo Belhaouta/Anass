@@ -1,0 +1,270 @@
+h1{
+margin: 28px 15%;
+color: #000;
+text-decoration: none;
+font-size: 56px;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+font-weight: bold;
+letter-spacing: 19px;
+}
+
+	 .admin{width: 87%;
+padding-top: 24px;
+padding-left:45px;
+height: 507px;
+background: #000000b3;
+margin: 0% auto;
+color: white;
+border-radius: 5px;
+letter-spacing: 2px;
+text-align: center;
+font-family: 'Armata',sans-serif;
+
+ }
+ 	 .chauffeur{width: 87%;
+padding-top: 24px;
+padding-left:45px;
+height: 640px;
+background: #000000b3;
+margin: 0% auto;
+color: white;
+border-radius: 5px;
+letter-spacing: 2px;
+text-align: center;
+font-family: 'Armata',sans-serif;
+
+ }
+ .chauffeur h1{
+margin: 28px 0%;
+color: #fff;
+text-decoration: none;
+font-size: 34px;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+font-weight: bold;
+letter-spacing:16px;
+}
+ 	 .vehicule{width: 87%;
+padding-top: 24px;
+padding-left:45px;
+height: 560px;
+background: #000000b3;
+margin: 0% auto;
+color: white;
+border-radius: 5px;
+letter-spacing: 2px;
+text-align: center;
+font-family: 'Armata',sans-serif;
+
+ }
+ .vehicule h1{
+margin: 28px 0%;
+color: #fff;
+text-decoration: none;
+font-size: 34px;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+font-weight: bold;
+letter-spacing:16px;
+}
+   a{text-decoration:none;
+   color:#fbc322;}
+ 
+ 	 .rub{width: 20%;
+padding-top: 2px;
+padding-left: 12px;
+height: 144px;
+background: #fff3;
+margin: 52px 17px;
+color: #fbc322;
+border-radius: 15px;
+letter-spacing: 2px;
+text-align: center;
+font-family: 'Armata',sans-serif;
+float: left;
+ }
+ .rub:hover{
+ 
+ background: black;
+ color:white;
+ }
+ 
+ .rub h4{
+margin-bottom: 0px;
+margin-top: 0;
+font-size: 23px;
+padding: 44px 18px;
+
+font-family: 'Trebuchet MS', Helvetica, sans-serif; 
+ }
+ 
+ #text{
+width: 38%;
+height: 7%;
+border-radius: 3px;
+text-align: center;
+font-size: 18px;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+background: linear-gradient(-32deg, white, #c18508);
+color: #1a1a1a;
+margin: 19px 10% 10px;}
+#text1{
+width: 38%;
+height: 8%;
+border-radius: 3px;
+text-align: center;
+font-size: 18px;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+background: linear-gradient(-32deg, white, #c18508);
+color: #1a1a1a;
+margin: 19px 10% 10px;}
+
+#button {
+ font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+width: 40%;
+background: black;
+border-radius: 5px;
+border: 0;
+cursor: pointer;
+color: #c18508;
+font-size: 24px;
+padding-top: 10px;
+padding-bottom: 10px;
+transition: all 0.3s;
+margin:3% 5% 35px;
+font-weight: 700;
+}
+#button:hover{
+ background:#c18508 ;
+ color:black;
+ 
+}
+#erreur{color:red;
+text-align:center;
+font-weight: 300;
+font-size:20px;
+}
+#valide{color:blue;
+text-align:center;
+font-weight: 300;
+font-size:20px;
+}
+#client h3{float:left;}
+#client h4{float:left;}
+#client h2{float:left;}
+#client{
+
+width: 87%;
+padding-top: 24px;
+padding-left:45px;
+height: 100px;
+background: white;
+margin: 52px 17px;
+color: black;
+border-radius: 5px;
+letter-spacing: 2px;
+text-align: center;
+font-family: 'Armata',sans-serif;
+
+}
+#marchandises{
+
+width: 61%;
+padding-top: 24px;
+padding-left: 45px;
+height: 234px;
+background: white;
+margin: 53px 15%;
+color: black;
+border-radius: 5px;
+letter-spacing: 2px;
+text-align: center;
+font-family: 'Armata',sans-serif;
+
+
+}
+.client1{
+width: 87%;
+padding-top: 24px;
+padding-left:45px;
+height: auto !important;
+background: #000000b3;
+margin: 0% auto;
+color: white;
+border-radius: 5px;
+letter-spacing: 2px;
+text-align: center;
+font-family: 'Armata',sans-serif;
+
+}
+ .client1 h1{
+margin: 28px 0%;
+color: #fff;
+text-decoration: none;
+font-size: 34px;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+font-weight: bold;
+letter-spacing:16px;
+}
+
+
+ 	 .detailscourse{width: 87%;
+padding-top: 24px;
+padding-left:45px;
+height: 560px;
+background: #000000b3;
+margin: 0% auto;
+color: white;
+border-radius: 5px;
+letter-spacing: 2px;
+text-align: center;
+font-family: 'Armata',sans-serif;
+
+ }
+ .detailscourse h1{
+margin: 28px 0%;
+color: #fff;
+font-size: 34px;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+font-weight: bold;
+letter-spacing:16px;
+}
+ .detailscourse h2{
+color: #f6c384;
+text-align:center;
+font-size: 25px;
+float:none;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+font-weight: bold;
+letter-spacing:5px;
+}
+ .detailscourse h4{
+color: #f6c384;
+text-align:center;
+font-size: 15px;
+float:none;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+font-weight: bold;
+letter-spacing:5px;
+}
+
+ .detailscourse h3{
+color: #ff8d00;
+text-align:center;
+font-size: 20px;
+float:none;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+font-weight: bold;
+letter-spacing:5px;
+}
+.personne{
+width: 13%;
+float: left;
+height: 16%;
+margin: 3% 1% 0%;
+font-size: 16px;
+border-radius: 73px;
+background-color: #b9c09680;
+color: black;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+font-weight: bold;
+padding-top: 5%;
+text-transform: uppercase;}
